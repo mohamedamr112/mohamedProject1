@@ -1,0 +1,262 @@
+*{
+    padding: 0px;  
+    margin: 0px;
+   
+}
+body{
+    background-color: rgba(91, 140, 133, 0.93);
+    font-size: 90%;
+    font-family: Arial, 'Lucida Sans Unicode';
+    line-height: 2.5;
+    text-align: left;
+    height: 100%;
+    margin: 0;
+    display: table;
+           
+}
+a{text-decoration: none;}
+a:link ,a:visited {color: #b0a160;}
+a:hover , a:active{color: #ecce6d;}
+.body{
+    margin: 20px auto;
+    width: 70%;
+    clear: both;
+}
+
+/*--------------------------Header----------*/
+
+.Header img {
+    width: 100%;
+}
+.Header nav {
+    background-color: #434e52;
+    height: 40px;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+
+}
+.Header nav ul {
+    text-align: center;
+    list-style: none;
+    margin: 0 auto;
+}
+.Header nav ul li {
+    display: inline;
+   
+}
+.Header a:link,.Header a:visited{
+    color: #b0a160;
+     padding: 10px 30px;
+    display:inline-block;
+    height: 20px;
+}
+.Header a:hover,.Header a:active{
+    color: #ecce6d;
+    background-color: #2c3c41
+
+}
+
+/*--------------------------Contant----------*/
+
+.maincontent{
+    float: left;
+    width: 70%;
+    position: relative;
+    
+}
+.TOPcontant{
+    background-color:rgba(80, 137, 129, 0.01) ;
+    padding: 3%;
+    margin-top: 3%;
+     border-radius: 5px;
+    -webkit-border-radius: 5px;    
+}
+.pcontant{
+    display: block;
+}
+/*--------------------------SIDE----------*/
+
+.sidebar{
+    width: 22%;
+    margin: 2% 0 0 2%;
+    float: left;
+}
+
+
+/*--------------------------Footer----------*/
+
+footer{
+    background-color: darkgoldenrod;
+    display: table-row;
+    height: 40px;
+    border-radius: 5px;
+    width: 100%;  
+    -webkit-border-radius: 5px;
+
+    
+}
+footer p{
+    text-align: center;
+}
+
+/*--------------------------audio----------*/
+.ad1{
+    width:70%;
+}
+
+
+/*--------------------------video----------*/
+.video{
+    width: 70%;
+}
+
+
+
+/*------------------Slider-packge----------
+.slider-packge{
+    margin: 10px auto;
+    height: 250px;
+    width: auto;
+    position: relative;
+}
+
+.slider-packge img{
+    position: absolute;
+    opacity: 0;
+    transition: opacity 1s;
+    z-index: 1;
+    width: 70%;
+    height: 150px;
+    
+}
+
+.slider-packge img.active{
+    opacity: 1;
+}
+
+.slider-packge slide-number{
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    color: #fff;
+    padding: 5px 10px;
+    font-size: 20px;
+    z-index: 2;
+    border-radius: 5px;
+    background-color: rgba(44, 60, 65, 0.31);
+        
+}
+
+.slider-control{
+    width: 70px;
+    margin: auto;
+} 
+
+.slider-control .prev, .slider-control .next{
+    background-color:rgba(176, 161, 96, 0.63)
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+    cursor: pointer;
+    padding: 5px;
+    user-select: none;
+    width: 20%;
+        
+}
+.slider-control .prev{
+    float: left;
+}
+
+.slider-control .next{
+    float: right;
+}
+
+.slider-control .prev.disabled,
+.slider-control .next.disabled{
+    
+    
+}
+*/
+
+
+
+/*--------------------------Mobile ver----------*/
+
+@media screen and (max-width: 480px){
+/*--------------------------Mobile body----------*/
+
+   .body{
+    width: 90%;
+       font-size: 95%
+}
+ /*--------------------------Mobile header----------*/
+
+    
+.Header nav {
+    height: 120px;
+}
+.Header nav ul {
+    width: 100%;
+    margin: 0 ;
+}
+.Header nav ul li {
+    display: inline;
+   
+}
+.Header a:link,.Header a:visited{
+  
+    display:block;
+   
+}
+.Header a:hover,.Header a:active{
+    color: #ecce6d;
+    background-color: #2c3c41
+
+}
+
+    
+.maincontent{
+    width: 100%;
+    }
+
+.sidebar{
+    width: 100%;
+ 
+
+}
+
+/*--------------------------Mobile ver----------*/
+@media screen and (max-width: 680px){
+
+.body{
+    width: 90%;
+       font-size: 95%
+}
+.Header nav {
+    
+    font-size: 80%;
+}
+  /*  .ad1{
+        width: 3px;
+    }*/
+
+}
+    
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
